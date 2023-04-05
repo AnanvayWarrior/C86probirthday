@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HAPPY BIRTHDAY DEAR DADU JI</title>
+<link rel="stylesheet" href="style.css">
+<script src="fabric.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<body class="body_backgorund" onload="new_image()">
+	<button class="btn btn-primary" onclick="back()"> Back</button>
+	
+	<center>
+		<h1 id="heading">HAPPY BIRTHDAY DEAR DADU JI</h1>
+		<img src="BirthdayImage.jpg" id="image">
+		<br><br>
+		<!--- Create canvas --->
+		<canvas width="600" height="200" class="myCanvas"></canvas>
+
+		<br>
+		<!--- Create Bootstrap button --->
+		<button class="btn btn-warning btn-lg" onclick="playSound()"> Dear Dadu Ji</button>
+        <button class="btn btn-warning btn-lg" onclick="pauseSound()"> Pause Song</button>
+	</center>
+	<audio id="myAudio" src="Daddy.mp3"></audio>
+	<script src="main.js"></script>
+</body>
+</html>

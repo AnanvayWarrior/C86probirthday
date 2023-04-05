@@ -1,0 +1,25 @@
+.body_backgorund 
+{
+    background-image:url(hOye.gif);
+    background-position:center;
+    background-size:cover;
+}
+#myCanvas
+{
+   border-radius:10px;
+   background-color: white;
+   border-style:ridge;
+   border-color:darkviolet;
+   text-decoration: inherit;
+}
+
+#heading {
+    font-size: 80px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 85, 255);
+    text-decoration: underline;
+}
+
+#image {
+    border-color: black;
+}
